@@ -9,7 +9,7 @@ export default defineUserConfig({
   base: "/health_doc",
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
-    navbar: ['/health_doc', '/get-started'],
+    navbar: ['/', '/get-started'],
   }),
 
   bundler: viteBundler(),
